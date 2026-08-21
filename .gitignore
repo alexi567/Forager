@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# PDF documents
+*.pdf
+
+# Environment variables
+.env
+
+# Local databases / vector stores
+chroma_db/
+vectorstore/
+faiss_index/
+
+# Local AI models
+models/
+*.gguf
+*.safetensors
+*.bin
+
+# IDE
+.vscode/
+.idea/
